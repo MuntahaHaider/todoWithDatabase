@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://www.gstatic.com/firebasejs/7.17.2/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.17.2/firebase-database.js"></script>
+</head>
+<body>
+
+
+<div id="mainContainer" class="card">
+    <div class="card-body">
+      <div id="container" style="text-align: center; ">
+        <h1 style="text-align: center;     font-family: dancing script, cursive ;">To Do App</h1>
+        <input type="text" id="todoInput">
+        <button onclick="addTodo()"><b>Add todo</b></button>
+        <button onclick="deleteAll()"><b>Delete all</b></button>
+        </div>
+        <div>
+            <ul id="list">
+        
+            </ul>
+        </div>
+      
+    </div>
+  </div>
+
+
+</body>
+<script src="app.js"></script>
+</html>

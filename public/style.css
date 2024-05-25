@@ -1,0 +1,79 @@
+
+body {
+    background-color: rgb(224, 200, 156);
+    padding-top: 50px;
+}
+ #mainContainer{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    position: relative;
+  /* width: 550px; */
+  /* height: auto; */
+  /* overflow: hidden; */
+  border: 2px solid #4c2429;
+    border-radius: 20px;
+    box-shadow: 0 0 10px 10px rgb(187, 165, 125);
+    margin: auto;
+    padding: 40px;
+    padding-bottom: 70px;
+} 
+
+
+input {
+    height: 43px;
+    width: 200px;
+    border-radius: 40px;
+    border: none;
+    box-shadow: 0 0 7px 7px rgb(187, 165, 125);
+
+}
+
+button {
+    height: 50px;
+    width: 100px;
+    border-radius: 40px;
+    border: none;
+    box-shadow: 0 0 7px 7px rgb(187, 165, 125);}
+
+#container {
+    text-align: center;
+}
+
+/* #list {
+    margin-left: 0px;
+    list-style: decimal;
+    text-align: center;
+} */
+
+#list {
+    margin-left: 0;
+    padding-left: 20px; /* Adjust as needed to position the numbers inside the div */
+    list-style-position: inside; /* Ensure the list numbers are inside the list container */
+    list-style-type: decimal;
+    text-align: center; /* Align text to the left */
+}
+
+/* Optional: Style for list items */
+#list li {
+    margin-bottom: 10px; /* Add some space between list items */
+}
+
+
+/* Media query for screens smaller than 400px */
+@media (max-width: 400px) {
+    input {
+        width: 80%; 
+        max-width: 300px; 
+    }
+
+    button {
+        width: 200px;
+        /* width: 80%; 
+        max-width: 200px;  */
+        margin: 0px; 
+    }
+
+    #list {
+        margin-left: auto; 
+        margin-right: auto;
+    }
+}
